@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目定位 Agent"
+  short_description: "将学生项目转化为面试导向的项目经历，生成简历项目描述、自我介绍、面试题库、追问树和升级路线图"
+  default_prompt: "分析我的代码仓库，帮我生成面向面试的项目经历"

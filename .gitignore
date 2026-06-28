@@ -1,0 +1,35 @@
+# Output files (user-specific)
+outputs/*.md
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Editor temp files
+*~
+
+# Logs
+*.log
