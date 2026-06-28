@@ -10,7 +10,6 @@ Every output document MUST begin with the following disclaimer:
 
 > **数据说明**：以下项目经历中的性能指标（响应时间、QPS、命中率等）为基于技术方案的合理估算值，仅供参考。请根据你的项目实际情况进行调整后再写入简历。面试时请确保能解释数据的来源和测量方法。
 
-
 ### CRITICAL RULES (READ BEFORE GENERATING)
 
 1. **4-6 bullets ONLY**

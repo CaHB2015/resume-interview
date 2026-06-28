@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对 Project Positioning Agent 的关注！🎉
+感谢你对 resume-interview 的关注！🎉
 
 本项目欢迎任何形式的贡献——无论是修复 bug、添加新功能、完善参考知识库，还是改进文档。
 
