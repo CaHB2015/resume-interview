@@ -120,6 +120,9 @@ Redis 缓存设计
 ### 安装
 
 ```bash
+# 克隆仓库
+git clone https://github.com/CaHB2015/resume-interview.git
+
 # 复制到 Claude Code skills 目录
 cp -r resume-interview ~/.claude/skills/
 

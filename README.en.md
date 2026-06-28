@@ -118,6 +118,9 @@ Compare your project against real JD requirements to identify gaps:
 ### Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/CaHB2015/resume-interview.git
+
 # Copy to Claude Code skills directory
 cp -r resume-interview ~/.claude/skills/
 
