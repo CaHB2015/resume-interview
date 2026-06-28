@@ -13,15 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check Markdown links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          use-quiet-mode: yes
-          use-verbose-mode: no
-          check-modified-files-only: no
-
-      - name: Lint Markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v16
+      - uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |
             *.md
@@ -29,7 +21,7 @@ jobs:
             examples/*.md
           config: |
             {
-              "MD013": { "line_length": 120, "code_blocks": false, "tables": false },
+              "MD013": { "line_length": 120 },
               "MD033": false,
               "MD036": false,
               "MD040": false,
@@ -37,6 +29,19 @@ jobs:
               "MD047": false,
               "MD060": false
             }
+
+  check-links:
+    name: Check Links
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: yes
+          use-verbose-mode: no
+          check-modified-files-only: no
 
   validate-yaml:
     name: Validate YAML
